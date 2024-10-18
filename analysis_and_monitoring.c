@@ -11,7 +11,7 @@
 absolute_time_t rising_edge_time;
 absolute_time_t falling_edge_time;
 absolute_time_t previous_rising_edge_time;
-uint64_t pulse_width_us = 0;  // Pulse width in microseconds
+uint64_t pulse_width_us = 0;  // Pulse width measured in microseconds
 uint64_t period_us = 0;       // Period of the PWM signal in microseconds
 float duty_cycle = 0.0f;      // Duty cycle as a percentage
 float frequency_hz = 0.0f;    // Frequency in Hz
